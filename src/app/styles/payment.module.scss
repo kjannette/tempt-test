@@ -1,0 +1,59 @@
+.paymentPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 36px auto;
+}
+
+.paymentFormContainer {
+  background-color: #f7f7f7;
+  width: 720px;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  border: none;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.textInput {
+  height: 40px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 4px;
+}
+
+.shortInput {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 4px;
+}
+
+.submitButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 0px;
+}
+
+.submitButton {
+  width: 300px !important;
+}

@@ -1,0 +1,51 @@
+export const paymentFields = [
+  {
+    name: "cardFirstName",
+    required: true,
+    label: "Card First Name",
+    maxLength: 45,
+    type: "cardFirstName",
+    message: "This field is required",
+  },
+  {
+    name: "cardLastName",
+    required: true,
+    label: "Card Last Name",
+    type: "cardLastName",
+    message: "This field is required",
+  },
+  {
+    name: "cardNumber",
+    required: true,
+    label: "Card Number",
+    minLength: 16,
+    maxLength: 16,
+    type: "cardNumber",
+    message: "This field is required",
+  },
+
+  {
+    name: "cardExpirationMonth",
+    required: true,
+    label: "Exp Month",
+    maxLength: 2,
+    type: "cardExpirationMonth",
+    message: "This field is required",
+  },
+  {
+    name: "cardExpirationYear",
+    required: true,
+    label: "Exp Year",
+    maxLength: 4,
+    type: "cardExpirationYear",
+    message: "This field is required",
+  },
+  {
+    name: "cardCvvCode",
+    required: true,
+    label: "CVV Number",
+    maxLength: 4,
+    type: "cardCvvCode",
+    message: "This field is required",
+  },
+];
